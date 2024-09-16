@@ -1,0 +1,86 @@
+
+h1 {
+    font-size: 40px;
+    color: azure;
+    
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p {
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100px, 300px, 100px;
+    grid-template-areas: 
+        'sidebar header'
+        'sidebar main'
+        'footer footer';
+        
+    column-gap: normal;
+    padding: 20px;
+    
+    background-color: violet;
+}
+
+.item1 {
+    grid-area: sidebar;
+    background-color: aqua;
+    
+}
+
+.item1 button {
+    display: block;
+    width: 90%;
+    margin-bottom: 3px;
+    
+}
+
+.item2 {
+    grid-area: header;
+  
+    background-image: url('../Images/Cypher wallpaper.jpg');
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.item3 {
+    grid-area: main;
+    background-color: red;
+}
+
+.item4 {
+    grid-area: footer;
+    background-color: yellow;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
