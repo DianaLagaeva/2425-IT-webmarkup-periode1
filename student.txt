@@ -1,0 +1,5 @@
+student name: Diana Lagaeva
+student number: 732419
+Student class: IT1E
+GitHub Repository:  
+GitHub Pages URL: 
