@@ -2,4 +2,4 @@ student name: Diana Lagaeva
 student number: 732419
 Student class: IT1E
 GitHub Repository:  https://github.com/DianaLagaeva/2425-IT-webmarkup-periode1
-GitHub Pages URL: 
+GitHub Pages URL: https://dianalagaeva.github.io/2425-IT-webmarkup-periode1/index.html
